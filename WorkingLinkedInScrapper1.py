@@ -245,6 +245,6 @@ def scrape_linkedin_profiles(linkedin_url, username, password, num_pages=1):
 # Example usage
 if __name__ == "__main__":
     linkedin_url = "https://www.linkedin.com/search/results/people/?keywords=data%20scientist&origin=SWITCH_SEARCH_VERTICAL&sid=Gq3"
-    username = "dhureengul@gmail.com"
-    password = "Dhureen20"
+    username = " "    #EnterUsername/Email
+    password = " "    #Password to LinkedIn Account
     scrape_linkedin_profiles(linkedin_url, username, password)
